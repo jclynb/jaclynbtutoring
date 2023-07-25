@@ -1,0 +1,62 @@
+body {
+  max-width: 650px;
+  margin: 40px auto;
+  padding: 0 10px;
+  font: 18px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #444;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    color: #c9d1d9;
+    background: #0d1117;
+  }
+
+  a:link {
+    color: #58a6ff;
+  }
+
+  a:visited {
+    color: #8e96f0;
+  }
+}
+
+.about-section {
+    align-items: center; /* Vertically center items */
+}
+
+.about-content {
+    display: flex;
+    align-items: center; /* Center items horizontally */
+}
+  
+.about-text {
+    flex: 1; /* Take all available space, pushing the image to the right */
+    padding-right: 20px; /* Add some spacing between text and image */
+    text-align: left;
+}
+  
+.about-image {
+    flex: 1; /* Take all available space, pushing the text to the left */
+    text-align: right;
+}
+  
+img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    max-height: 300px;
+}
+
+section {
+    margin-top: 40px; /* Add space between sections */
+}   
+  
+h2 {
+    margin-bottom: 20px; /* Add space below each section header */
+}
+/*# sourceMappingURL=style.css.map */
