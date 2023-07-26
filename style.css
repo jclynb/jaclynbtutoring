@@ -12,21 +12,6 @@ h3 {
   line-height: 1.2;
 }
 
-@media (prefers-color-scheme: light) {
-  body {
-    color: #c9d1d9;
-    background: #0d1117;
-  }
-
-  a:link {
-    color: #58a6ff;
-  }
-
-  a:visited {
-    color: #8e96f0;
-  }
-}
-
 .about-section {
     align-items: center; /* Vertically center items */
 }
@@ -58,5 +43,33 @@ section {
   
 h2 {
     margin-bottom: 20px; /* Add space below each section header */
+}
+
+/* Responsive styles */
+@media screen and (min-width: 768px) {
+  .about-content {
+    flex-direction: row; /* Arrange items in a row for screens wider than 768px */
+    justify-content: space-between; /* Spread items evenly in the available space */
+  }
+
+  .about-image {
+    max-width: 50%; /* Limit the image width to half of the available space */
+    margin-top: 0; /* Remove spacing between the text and image on larger screens */
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    color: #c9d1d9;
+    background: #0d1117;
+  }
+
+  a:link {
+    color: #58a6ff;
+  }
+
+  a:visited {
+    color: #8e96f0;
+  }
 }
 /*# sourceMappingURL=style.css.map */
